@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="body">
+    <div class="main">
         <div class="container-1">
             <div class="logo">
                 <img src="images/odin-lined.png" alt="odin">
@@ -43,10 +43,10 @@
                     </div>
                     <div class="form-row">
                         <label>
-                            Email: <input type="email" name="email">
+                            Email: <input type="email" name="email" autocomplete="email">
                         </label>
                         <label>
-                            Phone Number: <input type="tel" name="phone">
+                            Phone Number: <input type="tel" name="phone" autocomplete="tel">
                         </label>
                     </div>
                     <div class="form-row">
@@ -55,7 +55,7 @@
                             <span></span>
                         </label>
                         <label>
-                            Confirm Password: <input type="password" name="password">
+                            Confirm Password: <input type="password" name="confirm-password" minlength="8">
                         </label>
                     </div>
                 </div>
